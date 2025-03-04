@@ -1,0 +1,80 @@
+/* Everything concerning the general body has been nicely styled in the rules given here  */
+
+body
+{font-family: Arial, sans-serif;
+ background-color: #f4f4f9;
+ margin: 0 px;
+ padding: 0 px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+/* Container for the content */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+/* Title styling */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+/* Input field styling */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+/* Button styling */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Result text styling */
+#result {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    input[type="text"] {
+        font-size: 14px;
+    }
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+} 
