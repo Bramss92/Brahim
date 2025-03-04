@@ -1,0 +1,70 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Conteneur principal */
+section {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Titre */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Section formulaire */
+.formulaire {
+    margin-top: 20px;
+}
+
+/* Bouton de tirage */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Résultats */
+#resultat {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#resultatAleatoire {
+    font-size: 20px;
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 15px;
+    display: inline-block;
+}

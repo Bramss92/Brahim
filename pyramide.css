@@ -1,0 +1,74 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for content */
+section {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Title styling */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.formulaire {
+    margin-bottom: 20px;
+}
+
+/* Input field */
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Result output */
+pre {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Ensures that text wraps */
+    word-wrap: break-word; /* Breaks long words into the next line if needed */
+    font-size: 16px;
+    color: #333;
+}
